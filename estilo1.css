@@ -1,0 +1,58 @@
+body{
+  background-image: url("fondoo.png");
+background-attachment: fixed;
+background-repeat: no-repeat;
+background-size: 100% 100%;
+}
+ul#menu{
+  position: fixed;
+list-style-type: none;
+margin:0;
+padding:0;
+overflow:hidden;
+background-color: #92c5fc;
+ width: 100%;
+   /*HOJA DE ESTILO*/
+}
+li#menu{
+float: right;
+font-size:120%;
+}
+li#logo{
+float: left;
+font-size:130%;
+overflow:visible;
+list-style-type: none;
+}
+
+li a{
+display: block;
+color: white;
+text-align: center;
+padding:30px;
+text-decoration: none;
+}
+li a:hover{
+background-color:	#B0E0E6;
+}
+
+
+ul#of{
+list-style-type: none;
+margin:0;
+padding:0;
+overflow:hidden;
+background-color: black;     /*ofertas*/
+}
+
+li a#of{
+display: block;
+color: white;
+text-align: center;
+padding:30px;
+text-decoration: none;
+}
+h2#of{
+  color: white;
+  text-decoration-color: white;
+}

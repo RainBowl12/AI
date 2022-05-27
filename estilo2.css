@@ -1,0 +1,20 @@
+ul#mar{
+list-style-type: none;
+margin:0;
+padding:0;
+overflow:hidden;
+background-color: #RRGGBBAA;
+}
+li#mar{
+float: left;
+}
+li a#mar{
+display: block;
+color: white;
+text-align: center;
+padding:30px;
+text-decoration: none;
+}
+li a#mar:hover{
+background-color:red;
+}
